@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    padding: 0 160px;
+    position: relative;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 115px;
+    align-items: center;
+}
+.nav-links li{
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 10px;
+    font-weight: 700;
+
+}
+.nav-links li a:hover{
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 18px;
+    transition: 0.3s all;
+}
+.nav-icons li{
+    display: inline-block;
+    margin: 0 20px;
+
+}
+a{
+    color: #5C6A79;
+    text-decoration: none;
+}
+.books-nav{
+    color: black;
+    font-weight: 900;
+}
+header .banner{
+    background-color: #FFE0E2;
+    height: 85vh;
+    background-image: url(/banner.svg);
+    background-size: cover;
+}
+.promo1{
+    position: absolute;
+    top: 195px;
+    right: 74px;
+}
+.promo2{
+    position: absolute;
+    top:475px;
+    right: 0;
+}
+.main{
+    position: relative;
+}
+.categories{
+    width: 416px;
+    height: 710px;
+    background-color: #EFEEF6;
+    position: absolute;
+    left: 0;
+    top: 134px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+}
+.categories i{
+    position: relative;
+    left:0;
+}
+
+.categories h3{
+    display: inline-block;
+    padding-top: 20px;
+    color: black;
+}
+.categories ul li{
+    list-style-type: none;
+    font-size: 12px;
+    margin: 23px;
+    margin-left: 160px;
+}
+.categories ul li a:hover{
+    color: black;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 15px;
+}
+.categories{
+    padding-bottom: 22px;
+}
+.fa-circle{
+    color: #756ad3;
+    display: inline-block;
+    margin-left: 160px;
+    margin-top: 52px;
+}
+.books{
+    position: relative;
+}
+/* Book 1 */
+.book1{
+    width: 424px;
+    height: 300px;
+    position: relative;
+    top: 180px;
+    left: 356px;
+    display: flex;
+    font-size: 10px;
+}
+.book1 .book1-container{
+    padding-left: 36px;
+    padding-top: 49px;
+}
+.book1 h3{
+    font-size: 16px;
+}
+.books h4{
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 8px;
+}
+    /* Book 2 */
+.book2{
+    width: 424px;
+    height: 300px;
+    position: absolute;
+    top: 180px;
+    right: 160px;
+    display: flex;
+    font-size: 10px;
+}
+.book2 .book2-container{
+    padding-left: 36px;
+    padding-top: 49px;
+}
+.book2 h4, h3{
+    font-size: 16px;
+}
+.book2 h4{
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 8px;
+}
+.line-th{
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+.text{
+    text-transform: capitalize;
+    font-size: 10px;
+    color: #5C6A79;
+
+}
+.books span{
+    color:#5C6A79;
+    font-size: 10px;
+    margin-bottom: 4px;
+
+}
+.books span, h3{
+    margin-bottom: 4px;
+}
+.rating{
+    margin-bottom: 16px;
+    color:#F2C94C;
+    
+}
+.price{
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+.books a{
+    color: #4C3DB2;
+    padding: 17px 65px;
+    border: 1px solid #4C3DB2;
+    font-size: 8px;
+    font-weight: bold;
+
+}
+.books a:hover{
+    color: white;
+    background-color: #4C3DB2;
+    transition: 0.5s all;
+}
+.book3{
+    position: absolute;
+    top: 576px;
+    left: 356px;
+    display: flex;
+    width: 424px;
+    height: 300px;
+}
+.book3 .book3-container{
+    padding-left: 36px;
+    padding-top: 49px;
+}
+.book4{
+    position: absolute;
+    top: 576px;
+    right: 160px;
+    display: flex;
+    width: 424px;
+    height: 300px;
+}
+.book4 .book4-container{
+    padding-left: 36px;
+    padding-top: 49px;
+}
+.book5{
+    position: absolute;
+    top: 972px;
+    left: 356px;
+    display: flex;
+    width: 424px;
+    height: 300px;
+    padding-bottom: 96px;
+}
+.book5 .book5-container{
+    padding-left: 36px;
+    padding-top: 49px;
+}
+.book6{
+    position: absolute;
+    top: 972px;
+    right: 160px;
+    display: flex;
+    width: 424px;
+    height: 300px;
+}
+.book6 .book6-container{
+    padding-left: 36px;
+    padding-top: 49px;
+}

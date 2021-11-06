@@ -1,0 +1,19 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.nav-links li a:hover{
+    padding: 5px 7px;
+
+}
+.promo1, .promo2{
+    display: none;
+}
+.banner{
+    width: 100%;
+}
